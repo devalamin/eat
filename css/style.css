@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    padding: 0 100px;
+}
+
+#banner .main .text {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner .main .text .skip {
+    font-size: 50px;
+    width: 466px;
+    font-weight: 700;
+    color: grey;
+}
+
+#banner .main .text .skip span {
+    color: tomato;
+}
+
+#banner .main .text .gine {
+    width: 423px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#banner .main .img {
+    height: 700px;
+    width: 50%;
+}
+
+#banner .main .img img {
+    width: 100%;
+}
+
+#banner .main a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(grey, pink);
+    box-shadow: 5px 10px 50px gray;
+}
+
+
+#about {
+    margin-top: 200px;
+    background: url(../images/shapes/aboutnew.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#about .main .left {
+    width: 50%;
+    height: 700px;
+}
+
+#about .main .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    height: 700px;
+}
+
+#about .main .right h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: gray;
+}
+
+#about .main .right p {
+    margin: 30px 0;
+    font-size: 20px;
+    width: 528px;
+}
+
+#about .main .right span {
+    margin-top: 30px;
+}
+
+#about .main .right a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, grey);
+    box-shadow: 5px 10px 40px lightcoral;
+}
